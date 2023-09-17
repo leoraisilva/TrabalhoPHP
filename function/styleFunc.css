@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Noto+Sans+KR:wght@100&family=Nunito+Sans:opsz,wght@6..12,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: none;
+    scroll-behavior: smooth;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+html{
+    overflow-x: hidden;
+    font-size: 1.5rem;
+}
+
+body{
+    background: #272727;
+    color: #fff;
+}
+
+section{
+    height: 885px;
+}
+
+.difere{
+    background: #000000;
+}
+
+.header{
+    background: #000000;
+    color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 7%;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+}
+
+.corpo {
+    display: flex;
+    flex-direction: row;
+    font-size: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .corpo .links a{
+    color: #fff;
+    margin-left: 2rem;
+}
+
+.header .corpo .links a span {
+    margin-left: 4rem;
+    font-size: 2rem;
+}
+
+
+.header .corpo .links a:hover{
+    color: #00ff;
+}
+
+.responsive{
+    overflow: hidden;
+    opacity: 0;
+    padding-right: 1000px;
+}
+
+.php {
+    margin: 0;
+    margin-left: 1rem;
+    font-size: 2rem;
+    padding-right: 500px;
+}
+
+.container{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: top;
+    align-items: top;
+}
+
+.descricao{
+    flex: 1;
+    flex-basis: 33%;
+    margin: 1rem;
+}
+
+.descricao h2{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.sintaxe{
+    flex: 2;
+    flex-basis: 33%;
+    margin: 1rem;
+}
+
+.sintaxe h2{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.sintaxe .func{
+    padding-left: 0.2rem;
+    font-size: 1.2rem;
+    color: #272727;
+    margin-bottom: 1rem;
+    background: #fff;
+    border-radius: 1rem;
+}
+
+.exemplo{
+    flex: 3;
+    flex-basis: 33%;
+    margin: 1rem;
+}
+
+.exemplo .result1:hover, .result2:hover, .result3:hover, .result4:hover, .result5:hover, .result6:hover, .result7:hover, .result8:hover, .result9:hover, .result10:hover, .result11:hover, .result12:hover, .result13:hover, .result14:hover{
+    cursor: pointer;
+    color: #00ff;
+}
+
+
+.exemplo h2{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.exemplo p {
+    color: #999999;
+}
+
+@media(max-width: 1842px) {
+    .responsive{
+        padding-right: 600px;
+    }
+    .header .corpo .links a{
+        margin-left: 0;
+    }
+    
+    .header .corpo .links a span {
+        margin-left: 0;
+    }
+    
+}
+
+@media(max-width: 1220){
+    .container{
+        flex-direction: column;
+    }
+    .responsive{
+        padding-right: 0;
+    }
+    .php {
+        margin-left: 1rem;
+        padding-right: 0px;
+    }
+
+}
+
+@media(max-width: 730px){
+    .container{
+        flex-direction: column;
+    }
+    
+
+    
+
+}

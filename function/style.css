@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Noto+Sans+KR:wght@100&family=Nunito+Sans:opsz,wght@6..12,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: none;
+    scroll-behavior: smooth;
+    font-family: "Gochi Hand", sans-serif;
+}
+
+html{
+    overflow-x: hidden;
+    font-size: 1.5rem;
+}
+
+body{
+    background: #272727;
+    color: #fff;
+}
+
+section{
+    height: 885px;
+}
+
+.difere{
+    background: #000000;
+}
+
+.header{
+    background: #000000;
+    color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 7%;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+}
+
+.corpo {
+    display: flex;
+    flex-direction: row;
+    font-size: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .corpo .links a{
+    color: #fff;
+    margin-left: 2rem;
+}
+
+.header .corpo .links a span {
+    margin-left: 4rem;
+    font-size: 2rem;
+}
+
+
+.header .corpo .links a:hover{
+    color: #00ff;
+}
+
+.responsive{
+    overflow: hidden;
+    opacity: 0;
+    padding-right: 1000px;
+}
+
+.php {
+    margin: 0;
+    margin-left: 1rem;
+    font-size: 2rem;
+    padding-right: 500px;
+}
+/* section home */
+
+.image img{
+    width: 80%;
+}
+
+.texto h2 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.texto h3{
+    font-size: 2.5rem;
+    margin-bottom: .5rem;
+}
+.texto p{
+    font-size: 1.5rem;
+}
+.texto scan{
+    color: #00ff;
+}
+
+.home {
+    display: flex;
+    flex-direction: row;
+    margin: 5vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.primeiroDados{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    padding: 2rem;
+}
+
+.primeiroDados h2{
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+.primeiroDados p{
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+}
+.function {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.function a{
+    font-size: 2rem;
+    color: #000000;
+    padding: .5rem;
+    margin-left: 2rem;
+    background:  #fff;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem #eee;
+    transition: .5s;
+}
+.function a:hover {
+    box-shadow: none;
+    background: #00ff;
+    color: #eee;
+}
+
+
+
+/*responsivo*/
+
+@media(max-width: 1842px) {
+    .responsive{
+        padding-right: 600px;
+    }
+}
+
+@media(max-width: 1380px) {
+    .responsive{
+        padding-right: 0;
+    }
+
+    .texto h2 {
+        font-size: 3rem;
+        margin-bottom: .9rem;
+    }
+    
+    .texto h3{
+        font-size: 1.5rem;
+        margin-bottom: .3rem;
+    }
+    .texto p{
+        font-size: 1rem;
+    }
+
+}
+
+@media(max-width: 1060px) {
+    .php {
+        padding-right: 0px;
+    }
+    .home {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media(max-width: 700px){
+    .primeiroDados h2{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    
+    .primeiroDados p{
+        font-size: 1rem;
+        margin-bottom: .1rem;
+    }
+    .function {
+        flex-direction: column;
+    }
+}

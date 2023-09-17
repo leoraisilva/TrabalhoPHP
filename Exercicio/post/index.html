@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculo Simples</title>
+</head>
+<body>
+    <form  method="post" action="resultado.php" >
+        <div class="arquivo">
+            <div class="choice">
+                <div class="dados">
+                    <h1>Calculo Simples</h1>
+                    <label>Valor A</label><input type="text" name="valA">
+                    <select name="operador">
+                        <option value="multiplica">Multiplicação</option>
+                        <option value="soma">Adição</option>
+                        <option value="subtrai">Subtração</option>
+                        <option value="divide">Divisão</option>
+                        <option value="exponente">Exponencial</option>
+                    </select>
+                    <label>Valor B</label><input type="text" name="valB">
+                </div>
+                <input type="submit" value="Calculo" class="btn">
+            </div>
+        </div>
+    </form>
+</body>
+</html>

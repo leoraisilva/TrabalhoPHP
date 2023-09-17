@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css"/>
+
+</head>
+    <body>
+        <!--Cabeçario-->
+        <header class="header">
+            <a href="#"  class="logo">Portfolio</a>
+
+            <i class='bx bx-menu' id="menu-icon" ></i>
+
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#service">Serviço</a>
+                <a href="#trabalhos">Trabalhos</a>
+                <a href="#contato">Contato</a>
+
+            </nav>
+        </header>
+        <!--Cabeçario-->
+        <!--Home-->
+        <section class="home" id="home">
+            <div class="home-content">
+                <h3>Olá, Este sou Eu</h3>
+                <h1>Leonardo R. Silva</h1>
+                <h3>Estou utilizando Portifolio de <span class="anime"></span></h3>
+                <p>Com base da minha capacitação estou tentando desenvolver um Portifolio tentando diferentes formas</p>
+                <div class="social-midia">
+                    <a href="#"><i class='bx bxl-linkedin-square' ></i></a>
+                    <a href="#"><i class='bx bxl-github' ></i></a>
+                    <a href="#"><i class='bx bxl-tiktok'></i></a>
+                    <a href="#"><i class='bx bxl-gmail' ></i></a>
+                </div>
+                <a href="#" class="btn">Baixar CV</a>
+            </div>
+            <div>
+                <img src="imagem/portifolio.png" alt="testando" class="img-porti">
+            </div>
+        </section>
+        <!--Home-->
+        <!--sobre-->
+        <section class="sobre" id="sobre">
+            <div>
+                <img src="imagem/portifolio.png" class="sobre-img" alt="testando" >
+            </div>
+
+            <div class="sobre-content">
+                <h2 class="heading">Sobre <span>Mim</span></h2>
+                <h3>FrontEnd Developer</h3>
+                <p>A construção aqui é para ser algo referente a mim, entretanto não tenho muito o 
+                    que posso falar então decidi infatizar fatores nada relevante sobre o conteudo com 
+                    longo texto sem qualquer anexo</p>
+                <a href="#" class="btn">+ Info</a>
+            </div>
+        </section>
+        <!--sobre-->
+        <!--serviço-->
+        <section class="service" id="service">
+                <h2 class="heading">Nosso <span>Serviço</span></h2>
+
+                <div class="service-container">
+                    <div class="service-box">
+                        <i class='bx bx-code-alt' undefined ></i>
+                        <h3>Desenvolvedor Java</h3>
+                        <p>Louco o suficiente para encarar um problema em Java como males e beneficio presente, o que importa é sempre esta disponivel para o serviço</p>
+                        <a href="#" class="btn">+ Info</a>
+                    </div>
+
+                    <div class="service-box">
+                        <i class='bx bx-code-curly' ></i>
+                        <h3>Desenvolvedor Web</h3>
+                        <p>Para pintar e colocar encarar um problema em JavaScript como males e beneficio presente, o que importa é sempre esta disponivel para o serviço</p>
+                        <a href="#" class="btn">+ Info</a> 
+                    </div>
+
+                    <div class="service-box">
+                        <i class='bx bx-code-block' ></i>
+                        <h3>Desenvolvedor C</h3>
+                        <p>Preocupado com o problema, vejo um obstaculo na linguagem que gera mais problema do que o problema promete</p>
+                        <a href="#" class="btn">+ Info</a>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <!--serviço-->
+        <!--Trabalhos-->
+        <section class="trabalhos" id="trabalhos">
+            <h2 class="heading">Utimos <span>Projetos</span></h2>
+
+            <div class="trabalhos-content">
+                <div class="trabalhos-box img-trabalho">
+                    <img src="imagem/tb3.jpg" alt="tela 1">
+                    <div class="trabalhos-layout">
+                        <h4>Java</h4>
+                        <p>Projeto focado em construção de um banco em Java</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+                <div class="trabalhos-box img-trabalho" >
+                    <img src="imagem/tb2.jpg" alt="tela 1">
+                    <div class="trabalhos-layout">
+                        <h4>Java</h4>
+                        <p>Projeto focado em construção de um banco em Java painel Dashboard</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+                <div class="trabalhos-box img-trabalho">
+                    <img src="imagem/tb1.jpg" alt="tela 1" >
+                    <div class="trabalhos-layout">
+                        <h4>Java</h4>
+                        <p>Projeto focado em construção de um formulario que faz a leitura do arquivo txt, xml, json em Java</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+
+
+                <div class="trabalhos-box">
+                    <img src="imagem/tb4.jpg" alt="tela 1">
+                    <div class="trabalhos-layout">
+                        <h4>Java</h4>
+                        <p>Projeto focado em construção de um Lista de Tell em Java</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!--Trabalhos-->
+        <!--Contato-->
+        <section class="contato" id="contato">
+            <h2 class="heading">Entra em Contato <span>Comigo</span></h2>
+            
+            <form action="#">
+                <div class="input-box">
+                    <input type="text" placeholder="Nome Completo">
+                    <input type="email" placeholder="E-mail">
+                </div>
+                <div class="input-box">
+                    <input type="text" placeholder="N° Contato">
+                    <input type="text" placeholder="E-mail Sugerido">
+                </div>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Poderia Deixar sua Mensagem"></textarea>
+                <input type="submit" value="Enviar Mensagem" class="btn">
+            </form>
+        </section>
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="js/script.js"></script>
+        
+    </body>
+</html>

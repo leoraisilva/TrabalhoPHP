@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Noto+Sans+KR:wght@100&family=Nunito+Sans:opsz,wght@6..12,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 1.4rem;
+}
+
+body {
+    background: #ffffff;
+    font-family: "Gochi Hand", sans-serif;
+}
+
+.arquivo {
+    margin: 3rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aquamarine;
+}
+
+.arquivo .choice {
+    width: 500px;
+    height: 380px;
+    background: linear-gradient(0.25turn, #235a23, #132a13);
+    border-radius: 1rem;
+    box-shadow: 1rem 1rem .8rem #999;
+
+}
+
+.arquivo .choice .dados {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    padding-left: 3rem;
+}
+
+.arquivo .choice .dados h1{
+    color: rgb(77, 199, 199);
+    margin-left: 2.8rem;
+    font-size: 2.1rem;
+    font-weight: 700;
+}
+
+.arquivo .choice .dados label {
+    padding-bottom: .5rem;
+    
+}
+.arquivo .choice .dados input {
+    padding: .3rem;
+    width: 50%;
+    background: aquamarine;
+    border-color: #235a23;
+    border-radius: 2rem;
+    color: #132a13;
+}
+
+.arquivo .choice .dados select {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding: .3rem 3%;
+    width: 50%;
+    background: aquamarine;
+    border-color: #235a23;
+    border-radius: 2rem;
+    color: #132a13;
+}
+
+.arquivo .choice .dados select option{
+    background: aquamarine;
+    color: #235a23;
+}
+
+.btn {
+    font-size: 0.8rem;
+    margin-left: 200px;
+    padding: .2rem;
+    display: inline;
+    color: #235a23;
+    border-radius: .2rem;
+    background: aquamarine; 
+}
+
+.btn:hover{
+    background: #235a23;
+    color: aquamarine;
+    cursor: pointer;
+    border-width: 2rem;
+    border: aquamarine;
+}
+
+.arquivo .result {
+    width: 900px;
+    height: 100px;
+    padding: 1rem;
+    background: linear-gradient(0.25turn, #235a23, #132a13);
+    border-radius: 1rem;
+    box-shadow: 1rem 1rem .8rem #999;
+}
+
+
+
+
