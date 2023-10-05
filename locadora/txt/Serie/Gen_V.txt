@@ -1,0 +1,7 @@
+Titulo: Gen V
+Genero: Sci-Fi & Fantasy, Action & Adventure, Drama
+Duracao: Varia
+Ano de Producao: 2023
+img: img/Series/gen_v.jpg
+Data do Aluguel: Jundiai, 04 de Outubro de 2023
+Valor do Aluguel: R$ 150

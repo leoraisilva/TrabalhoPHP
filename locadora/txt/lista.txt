@@ -1,0 +1,5 @@
+txt/Filme/Som_da_Liberdade.txt
+txt/Filme/Fale_Comigo.txt
+txt/Filme/Spartacus.txt
+txt/Serie/Gen_V.txt
+txt/Filme/Taxi_Driver.txt

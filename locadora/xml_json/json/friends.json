@@ -1,0 +1,9 @@
+{
+    "filme": {
+        "titulo": "Friends",
+        "genero": "Comédia",
+        "duracao": "Varia",
+        "ano": "1994",
+        "url": "img/Series/friends.jpg"
+    }
+}

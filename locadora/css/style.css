@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+:root{
+    --bgp-white: #fff;
+    --bgs-white: #eee;
+    --shadow: #999;
+    --border: #909090;
+    --text-color: #000;
+}
+
+body{
+    color: var(--text-color);
+}
+
+main {
+    margin-top: 7rem;
+}
+
+/* Entrada */
+.container-entrada{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-entrada h2 {
+    font-size: 5rem;
+    margin-bottom: 5rem;
+}
+
+
+.filmes, .series{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.filmes .layout-entrada, .series .layout-entrada{
+    position: absolute;
+    margin-bottom: 2rem;
+}
+.filmes .layout-entrada input{
+    width: 180px;
+    font-size: 3rem;
+    height: 90px;   
+    background: linear-gradient(45deg, red, blue);
+    border-radius: 1rem;
+    color: var(--bgp-white);
+    box-shadow: .8rem .8rem .2rem 0 rgb(0, 0, 0, .5);
+}
+
+.series .layout-entrada input{
+    width: 180px;
+    font-size: 3rem;
+    height: 90px;   
+    background: linear-gradient(45deg, green, rgb(43, 65, 43));
+    border-radius: 1rem;
+    color: var(--bgp-white);
+    box-shadow: .8rem .8rem .2rem 0 rgb(0, 0, 0, .8);
+}
+
+.filmes img, .series img{
+    width: 40%;
+    height: 40%;
+}
+
+/* Entrada */
+
+/*Cabeçario */
+.navbar-menu {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    background: var(--bgs-white);
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    z-index: 100;
+    border-bottom: 0.1rem solid var(--border);
+    box-shadow: 2rem 0 1rem var(--shadow);
+}
+
+.navbar-menu .navbar-content{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.8rem;
+    margin-left: 300px;
+}
+
+.navbar-menu .navbar-content .logo{
+    flex: 1;
+    font-size: 3rem;
+    margin-right: 800px;
+}
+
+.navbar-menu .navbar-content .barra{
+    flex: 2;
+    font-size: 2.3rem;
+    margin-right: 200px;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.navbar-menu .navbar-content .barra:hover{
+    cursor: pointer;
+}
+
+.navbar-menu .navbar-content .menu-nav{
+    flex: 3;
+    display: flex;
+    flex-direction: row;
+}
+.navbar-menu .navbar-content .menu-nav a{
+    width: 25rem;
+    color: var(--text-color);
+}
+.navbar-menu .navbar-content .menu-nav span:hover{
+    cursor: pointer;
+}
+
+/*Cabeçario */
+
+/* corpo */
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main-intro .layout-TextField h2{
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.8rem;
+    font-weight: 300;
+}
+
+.main-intro .layout-TextField .search{
+    display: flex;
+    flex-direction: row; 
+    margin-bottom: 2rem;
+}
+
+.main-intro .layout-TextField .textField{
+    display: flex;
+    background: var(--bgp-white);
+    border: .1rem solid var(--border);
+}
+
+.main-intro .layout-TextField input {
+    padding-left: 2rem;
+    height: 35px;
+}
+
+.main-intro .layout-TextField .selector{
+    width: 25rem;
+    height: 35px;
+    border: 0.1rem solid var(--border);
+    border-radius: 2rem  0 0 2rem;
+    background: var(--bgp-white);
+}
+
+.main-intro .layout-TextField .xml-json{
+    width: 5rem;
+    height: 35px;
+    border: 0.1rem solid var(--border);
+    background: var(--bgp-white);
+}
+
+.main-intro .layout-TextField .selector:hover, .main-intro .layout-TextField .bnt:hover, .main-intro .layout-TextField .mark:hover, .main-intro .layout-TextField .xml-json:hover{
+    cursor: pointer;
+    color: var(--bgs-white);
+    background: var(--text-color);
+}
+
+.main-intro .layout-TextField .bnt{
+    width: 120px;
+    height: 35px;
+    border: 0.1rem solid var(--shadow);
+    border-radius: 0 2rem 2rem 0;
+    background: var(--bgp-white);
+}
+
+
+.main-abstract{
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    align-items: center;
+    gap: 1.4rem;
+}
+
+
+.main-content{
+    position: relative;
+    font-size: 1.4rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.main-content img{
+    width: 100%;
+    transition: .5s ease;
+    border-radius: 2rem;
+}
+
+.main-content img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.main-content .main-layout {
+    position: absolute;
+    color: var(--bgs-white);
+    background: linear-gradient(rgb(0, 0, 0, .1), var(--text-color));
+    width: 100%;
+    height: 100%;
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    transition: 1s ease;
+    transform: translateY(150%);
+}
+
+.main-content:hover .main-layout{
+    transform: translateY(0);
+}
+
+.main-content .main-layout p{
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin: 1.2rem;
+}
+
+
+/* formulario layout */
+
+.container-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-form .layout-form h2{
+    font-size: 3rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    margin-bottom: 1.2rem;
+}
+
+.container-form .layout-form label{
+    font-size: 1.4rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    margin-right: 50px;
+}
+
+.container-form .layout-form input {
+    width: 100%;
+    padding: .3rem;
+    font-size: 1.2rem;
+    color: var(--text-color);
+    background: var(--bgp-white);
+    box-shadow: .8rem .8rem .2rem 0 var(--shadow);
+}
+
+.container-form .layout-form .titulo, .genero, .duracao, .ano, .url, .data, .valor {
+    margin-bottom: 1.2rem;
+}
+
+.container-form form input{
+    width: 10rem;
+    height: 35px;
+    background: linear-gradient(to right, var(--text-color), var(--shadow));
+    color: var(--bgp-white);
+    border-radius: .8rem;
+    margin-bottom: .5rem;
+}
+
+
+/*responsivo */
+
+
+@media (max-width: 1800px){
+
+    .navbar-menu .navbar-content .logo{
+        margin-right: 500px;
+    }
+
+}
+@media (max-width: 1500px){
+
+    .navbar-menu .navbar-content .logo{
+        margin-right: 100px;
+    }
+
+    .main-content .main-layout p{
+        font-size: 1.0rem;
+        margin: .5rem;
+    }
+}
+
+@media (max-width: 1100px){
+
+    .navbar-menu .navbar-content .logo{
+        margin-right: 0;
+    }
+    .navbar-menu .navbar-content .barra{
+        margin-right: 200px;
+    }
+
+    .navbar-menu .navbar-content .menu-nav a{
+        width: 15rem;
+    }
+
+    .main-abstract{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
+    
+}
+
+@media (max-width: 850px){
+
+    .navbar-menu .navbar-content{
+        margin-left: 80px;
+    }
+    .navbar-menu .navbar-content .barra{
+        margin-right: 50px;
+    }
+
+    .main-abstract{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+    .main-intro .layout-TextField h2 {
+        width: 300px;
+        font-size: 1.5rem;
+    }
+
+    .main-intro .layout-TextField {
+        width: 200px;
+    }
+
+    .container-form .layout-form input {
+        width: 85%;
+    }
+
+}
+
+@media (max-width: 652px){
+
+    .main-abstract{
+        grid-template-columns: 1fr;
+        gap: 5rem;
+    }
+    .main-content img{
+        width: 65%;
+        height: 65%;
+    }
+    .main-content .main-layout {
+        width: 71.5%;
+        height: 100%;
+        transform: translateY(150%);
+    }
+    .main-content .main-layout p{
+        font-size: 1.5rem;
+        margin: 1rem;
+    }
+
+}

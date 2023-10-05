@@ -1,0 +1,7 @@
+Titulo: Fale Comigo
+Genero:  Terror, Thriller  
+Duracao: 1h 35m
+Ano de Producao: 17/08/2023
+img: img/Filmes/fale_comigo.jpg
+Data do Aluguel: Jundiai, 04 de Outubro de 2023
+Valor do Aluguel: R$ 250

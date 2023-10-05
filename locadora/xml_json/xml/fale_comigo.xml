@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<array>
+    <arquivo>
+        <filme>
+            <titulo> Fale Comigo </titulo>
+            <genero> Terror, Thriller  </genero>
+            <duracao> 1h 35m </duracao>
+            <ano> 17/08/2023 </ano>
+            <url> img/Filmes/fale_comigo.jpg </url>
+        </filme>
+    </arquivo>
+</array>

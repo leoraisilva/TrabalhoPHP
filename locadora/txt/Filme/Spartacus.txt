@@ -1,0 +1,7 @@
+Titulo: Spartacus
+Genero:  História, Guerra, Drama, Aventura 
+Duracao: 3h 17m
+Ano de Producao: 17/11/1960
+img: img/Filmes/spartacus.jpg
+Data do Aluguel: Jundiai, 04 de Outubro de 2023
+Valor do Aluguel: R$ 150

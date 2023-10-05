@@ -1,0 +1,7 @@
+Titulo: Taxi Driver
+Genero:  Crime, Drama 
+Duracao: 1h 54m
+Ano de Producao: 22/03/1976
+img: img/Filmes/taxi_driver.jpg
+Data do Aluguel: Jundiai, 05 de Outubro de 2023
+Valor do Aluguel: R$ 154

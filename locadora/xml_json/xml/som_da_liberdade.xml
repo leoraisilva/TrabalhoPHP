@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<array>
+    <arquivo>
+        <filme>
+            <titulo> Som da Liberdade </titulo>
+            <genero> Ação, Drama </genero>
+            <duracao> 2h 11m </duracao>
+            <ano> 17/11/1960 </ano>
+            <url> img/Filmes/som_da_liberdade.jpg </url>
+        </filme>
+    </arquivo>
+</array>

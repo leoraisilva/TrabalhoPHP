@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<array>
+    <arquivo>
+        <filme>
+            <titulo> Spartacus </titulo>
+            <genero> História, Guerra, Drama, Aventura </genero>
+            <duracao> 3h 17m </duracao>
+            <ano> 17/11/1960 </ano>
+            <url> img/Filmes/spartacus.jpg </url>
+        </filme>
+    </arquivo>
+</array>

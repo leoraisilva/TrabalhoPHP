@@ -1,0 +1,7 @@
+Titulo: Som da Liberdade
+Genero:  Ação, Drama 
+Duracao: 2h 11m
+Ano de Producao: 17/11/1960
+img: img/Filmes/som_da_liberdade.jpg
+Data do Aluguel: Jundiai, 04 de Outubro de 2023
+Valor do Aluguel: R$ 250

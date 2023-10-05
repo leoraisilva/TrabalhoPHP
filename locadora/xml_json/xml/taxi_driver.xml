@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<array>
+    <arquivo>
+        <filme>
+            <titulo> Taxi Driver </titulo>
+            <genero> Crime, Drama </genero>
+            <duracao> 1h 54m </duracao>
+            <ano> 22/03/1976 </ano>
+            <url> img/Filmes/taxi_driver.jpg </url>
+        </filme>
+    </arquivo>
+</array>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<array>
+    <arquivo>
+        <filme>
+            <titulo> Destinos a Deriva </titulo>
+            <genero> Thriller, Drama </genero>
+            <duracao> 1h 49m </duracao>
+            <ano> 29/09/2023 </ano>
+            <url> img/Filmes/destinos_a_deriva.jpg </url>
+        </filme>
+    </arquivo>
+</array>
